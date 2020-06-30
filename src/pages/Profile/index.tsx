@@ -82,8 +82,8 @@ const Profile: React.FC = () => {
         };
 
         const response = await api.put('/profile', formData);
-
-        updateUser(response.data);
+        console.log(response.data);
+        updateUser({ ...response.data, avatar_url: `${user.avatar_url}` });
 
         history.push('/dashboard');
 
@@ -106,7 +106,7 @@ const Profile: React.FC = () => {
         });
       }
     },
-    [addToast, history, updateUser],
+    [addToast, history, updateUser, user.avatar_url],
   );
 
   const handleAvatarChange = useCallback(
@@ -118,6 +118,7 @@ const Profile: React.FC = () => {
 
         api.patch('/users/avatar', data).then(response => {
           updateUser(response.data);
+          console.log(response.data);
 
           addToast({
             type: 'success',
