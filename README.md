@@ -25,8 +25,8 @@ $ yarn
 # Rode o app
 $ yarn start
 ```
-![GoBarber Print1](./imagens/tela-inicial.png)
-![GoBarber Print2](./imagens/cadastro.png)
-![GoBarber Print3](./imagens/recuperar-senha.png)
-![GoBarber Print4](./imagens/dashboard.png)
-![GoBarber Print5](./imagens/atualizar-perfil.png)
+![GoBarber Print1](./images/tela-inicial.png)
+![GoBarber Print2](./images/cadastro.png)
+![GoBarber Print3](./images/recuperar-senha.png)
+![GoBarber Print4](./images/dashboard.png)
+![GoBarber Print5](./images/atualizar-perfil.png)
