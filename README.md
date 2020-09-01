@@ -10,7 +10,7 @@
 
 ## :information_source: Como usar
 
-Para rodar essa aplicação será necessario, [Git](https://git-scm.com), [Node.js v10.16][nodejs]  + [Yarn v1.13][yarn] ou mais recente e a [GoBarber API](https://github.com/Yansb/GoBarber)
+Para rodar essa aplicação será necessario, [Git](https://git-scm.com), [nodejs](https://nodejs.org/en/)  + [yarn](https://yarnpkg.com/) ou mais recente e a [GoBarber API](https://github.com/Yansb/GoBarber)
 
 ```bash
 # Clone o repositorio
